@@ -54,8 +54,15 @@ The ESP32 reads the sensors and determines whether the robot needs to move strai
 - ESP32 board support
 - C/C++
 
-## Project Photos
+## Project Photos and videos
+![Robot](media/robo1.1.jpeg)
 
+![Robot](media/robo1.2.jpeg)
+
+![Robot](media/robo1.3.png)
+
+## Demo
+[![Robot Demo](media/robo1.1.jpeg)](media/demo.mp4)
 
 ## What I Learned
 - Basic robotics and embedded systems
@@ -68,8 +75,11 @@ The ESP32 reads the sensors and determines whether the robot needs to move strai
 ## Results
 🏆 **IEEE RAS Summer of Projects 2026 – Week 1 Winner**
 Our robot successfully completed the line-following track in **13.99 seconds**, securing the **fastest time of the week**.
+![Leaderboard](media/leaderboard.jpeg)
+![Results](media/teams.jpeg)
 
 ## Future Improvements
-- Improve performance on sharp turns
+- Improve performance on sharp turns as well as shiny floors
 - Experiment with motor speed tuning
 - Explore multi-sensor line detection
+  
