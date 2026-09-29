@@ -14,7 +14,7 @@ The robot operates autonomously without remote control once powered on.
 - 7–12V Battery Pack
 - Robot Chassis
 - Jumper Wires
-
+  
 ## How It Works
 Two IR sensors are positioned at the front of the robot with a small gap between them.
 The ESP32 reads the sensors and determines whether the robot needs to move straight, turn left, turn right, or stop.
@@ -28,8 +28,16 @@ The ESP32 reads the sensors and determines whether the robot needs to move strai
 | ON | ON | Stop |
 
 ## Components & Connections
+<table>
+  <tr>
+    <td><img src="media/connections.jpeg" width="300"></td>
+  </tr>
+</table>
 
-### ESP32-S3-CAM → L298N
+<table>
+  <tr>
+    <td>
+ ESP32-S3-CAM → L298N
 
 | ESP32 Pin | L298N Pin | Function |
 |-----------|-----------|----------|
@@ -40,7 +48,9 @@ The ESP32 reads the sensors and determines whether the robot needs to move strai
 | GPIO48 | IN3 | Right motor direction |
 | GPIO41 | IN4 | Right motor direction |
 
-### ESP32-S3-CAM → IR Sensors
+  </td>
+    <td>
+ ESP32-S3-CAM → IR Sensors
 
 | ESP32 Pin | Connection |
 |-----------|------------|
@@ -48,6 +58,14 @@ The ESP32 reads the sensors and determines whether the robot needs to move strai
 | GPIO40 | Right IR sensor OUT |
 | 5V | Both sensor VCC |
 | GND | Both sensor GND |
+
+  </td>
+
+  </tr>
+</table>
+
+
+
 
 ## Software
 - Arduino IDE
